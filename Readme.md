@@ -1,3 +1,5 @@
+[![Gem Version](https://badge.fury.io/rb/omniauth-infusionsoft.svg)](http://badge.fury.io/rb/omniauth-infusionsoft)
+
 [![Build Status](https://travis-ci.org/L1h3r/omniauth-infusionsoft.svg?branch=master)](https://travis-ci.org/L1h3r/omniauth-infusionsoft)
 
 OmniAuth::Infusionsoft
