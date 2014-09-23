@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/L1h3r/omniauth-infusionsoft.svg?branch=master)](https://travis-ci.org/L1h3r/omniauth-infusionsoft)
+
 OmniAuth::Infusionsoft
 ---
 
