@@ -6,11 +6,21 @@ describe OmniAuth::Strategies::Infusionsoft do
     OmniAuth::Strategies::Infusionsoft.new({})
   end
 
-  context 'config options' do
+  before do
+    OmniAuth.config.test_mode = true
+  end
+
+  after do
+    OmniAuth.config.test_mode = false
+  end
+
+  context 'default options' do
     it 'has the correct name' do
       expect(subject.options.name).to eq('infusionsoft')
     end
+  end
 
+  context 'client options' do
     it 'has the correct site' do
       expect(subject.options.client_options.site).to eq('https://signin.infusionsoft.com')
     end
