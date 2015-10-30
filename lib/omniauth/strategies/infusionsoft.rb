@@ -11,6 +11,22 @@ module OmniAuth
         site:          'https://signin.infusionsoft.com'
       }
 
+      def full_host
+        case OmniAuth.config.full_host
+          when String
+            OmniAuth.config.full_host
+          when Proc
+            OmniAuth.config.full_host.call(env)
+          else
+            uri = URI.parse(request.url.gsub(/\?.*$/,''))
+            uri.path = ''
+            uri.query = nil
+            #sometimes the url is actually showing http inside rails because the other layers (like nginx) have handled the ssl termination.
+            uri.scheme = 'https'
+            uri.to_s
+        end
+      end
+
     end
   end
 end
