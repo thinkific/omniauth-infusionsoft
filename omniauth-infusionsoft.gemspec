@@ -2,7 +2,7 @@
 require File.expand_path('../lib/omniauth/infusionsoft/version', __FILE__)
 
 Gem::Specification.new do |gem|
-  gem.name          = 'omniauth-infusionsoft'
+  gem.name          = 'omniauth-infusionsoft-https'
   gem.version       = OmniAuth::Infusionsoft::VERSION
   gem.authors       = ['Devin Turner']
   gem.email         = ['devin.turner09@gmail.com']

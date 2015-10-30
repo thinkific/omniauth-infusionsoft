@@ -1,6 +1,6 @@
-[![Gem Version](https://badge.fury.io/rb/omniauth-infusionsoft.svg)](http://badge.fury.io/rb/omniauth-infusionsoft)
-[![Build Status](https://travis-ci.org/L1h3r/omniauth-infusionsoft.svg?branch=master)](https://travis-ci.org/L1h3r/omniauth-infusionsoft)
-[![Code Climate](https://codeclimate.com/github/L1h3r/omniauth-infusionsoft/badges/gpa.svg)](https://codeclimate.com/github/L1h3r/omniauth-infusionsoft)
+[![Gem Version](https://badge.fury.io/rb/omniauth-infusionsoft-https.svg)](http://badge.fury.io/rb/omniauth-infusionsoft)
+[![Build Status](https://travis-ci.org/L1h3r/omniauth-infusionsoft-https.svg?branch=master)](https://travis-ci.org/L1h3r/omniauth-infusionsoft)
+[![Code Climate](https://codeclimate.com/github/thinkific/omniauth-infusionsoft-https/badges/gpa.svg)](https://codeclimate.com/github/thinkific/omniauth-infusionsoft-https)
 
 OmniAuth::Infusionsoft
 ---
@@ -14,7 +14,7 @@ Installation
 
 Add this line to your application's Gemfile:
 
-<pre>gem 'omniauth-infusionsoft'</pre>
+<pre>gem 'omniauth-infusionsoft-https'</pre>
 
 And then execute:
 
@@ -22,7 +22,7 @@ And then execute:
 
 Or install it yourself as:
 
-<pre>$ gem install omniauth-infusionsoft</pre>
+<pre>$ gem install omniauth-infusionsoft-https</pre>
 
 Usage
 ---
